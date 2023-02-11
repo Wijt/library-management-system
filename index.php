@@ -9,6 +9,7 @@
     <meta charset="UTF-8">
     <title>Hoşgeldiniz!</title>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i" rel="stylesheet">
     <link href="static/plugin/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="static/plugin/font-awesome/css/font-awesome.min.css" rel="stylesheet">
@@ -206,7 +207,7 @@ else:
                 <h2>Yetkili<span> Girişi</span></h2>
             </div>
                 <div class="row">
-                <div class="col-sm-4 col-xs-4 col-md-4 col-md-offset-4">
+                <div class="col-sm-4 col-md-4 col-md-offset-4 col-sm-offset-4">
                     <div class="row">
                         <div class="uyari col-md-12" id="uyari-kutusu" style="opacity: 0;height: 30px;"> <?= $_DURUM['mesaj']; ?> </div> 
                     </div>
